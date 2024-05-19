@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <h1 className="fixed top-0 left-0 right-0 z-20 text-red-200">
-          header
+          Working on it. Since: {new Date().toLocaleDateString()}
         </h1>
         {children}
       </body>
