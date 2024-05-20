@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,10 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
-        <h1 className="fixed top-0 left-0 right-0 z-20 text-red-200">
-          Working on it. Last update: {new Date().toDateString()}
-        </h1>
+      <body className={poppins.className + " bg-black-100"}>
+        <Header />
         {children}
       </body>
     </html>
