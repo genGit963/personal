@@ -23,7 +23,7 @@ const Header = () => {
     <div
       className={
         showBackground
-          ? "fixed top-0 left-0 right-0 text-white-100 z-20  py-2 px-3 md:px-6 backdrop-blur-sm flex flex-row items-center justify-between"
+          ? "fixed top-0 left-0 right-0 text-white-100 z-20 py-2 px-3 md:px-6 backdrop-blur-sm flex flex-row items-center justify-between"
           : "hidden"
       }
     >

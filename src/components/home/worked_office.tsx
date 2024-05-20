@@ -10,7 +10,7 @@ export function WorkedOffices() {
         I sat on the Table and Chair of
       </h1>
       <InfiniteMovingCards
-        items={testimonials}
+        items={offices}
         direction="right"
         speed="slow"
       />
@@ -18,7 +18,7 @@ export function WorkedOffices() {
   );
 }
 
-const testimonials = [
+const offices = [
   {
     quote:
       "Six individuals, each driven by a fervent passion for technology and sharing a common vision, converged to establish a self-funded startup. Our collective endeavor materialized into the creation of a vibrant office space, a sanctuary where the ethos of collaboration and mutual leadership blossomed. Over the span of two transformative years, we devoted ourselves wholeheartedly to the mastery of the intricate domains of the MERN Stack and Flutter development.",
