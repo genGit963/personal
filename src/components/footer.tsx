@@ -7,7 +7,7 @@ import npm_logo from "../assets/npm.svg";
 
 const Footer = () => {
   return (
-    <div className="h-auto my-24 px-12 items-center bg-black">
+    <div className="h-auto px-1 md:px-5 items-center bg-black">
       <div className="block items-center md:flex md:justify-between md:flex-row bg-black-200 max-w-7xl p-12 m-auto rounded-2xl">
         <div className="text-center md:text-left">
           <p className="text-2xl font-semibold pb-3">Mahesh Bogati</p>
@@ -17,9 +17,9 @@ const Footer = () => {
           </p>
           <a
             href="mailto: bogati.mahesh.299.792.458@gmail.com"
-            className="underline text-cyan-500 text-[14px]"
+            className="underline text-cyan-500 text-[14px] items-center mx-auto"
           >
-            bogati.mahesh.299.792.458@gmail.com
+            <p className="text-center">bogati.mahesh.299.792.458@gmail.com</p>
           </a>
           <p className="text-[14px]">Kathmandu, Nepal</p>
           <p className="text-[14px]">All Rights Reserved</p>
@@ -33,7 +33,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="text-center md:text-left flex gap-3 items-center w-[280px] mx-auto md:mx-0 justify-between my-4 md:my-0">
+        <div className="text-center gap-2 md:text-left flex items-center w-[280px] mx-auto md:mx-0 justify-between my-4 md:my-0">
           <a
             href="https://github.com/genGit963?tab=repositories"
             target="_blank"
