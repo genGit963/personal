@@ -87,3 +87,8 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+.webkit-backdrop-blur-4 {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); /* Fallback for other browsers */
+}
