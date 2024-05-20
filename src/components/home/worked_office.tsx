@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export function WorkedOffices() {
   return (
-    <div className="h-[90vh] rounded-md flex flex-col antialiased bg-black-100 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div id="offices" className="h-[80vh] rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <h1 className="text-center text-teal-200 text-2xl sm:text-4xl sm:font-semibold">
         I sat on the Table and Chair of
       </h1>

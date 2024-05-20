@@ -6,7 +6,7 @@ import { FlipWordsDemo } from "../my_ui/my_flilp_summary";
 
 const Hero = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden" id="hero">
       <Spotlight className="items-center [80vh] w-[30vw]" fill="purple" />
       <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
 
