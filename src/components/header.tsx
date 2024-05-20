@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import logo from "../assets/logo.svg"
+import logo from "../assets/logo.svg";
 import menu_bar from "../assets/menu_bar.svg";
 const Header = () => {
   const [showBackground, setShowBackground] = useState(false);
@@ -40,12 +40,14 @@ const Header = () => {
       <div className="flex flex-row gap-6 justify-around">
         <Link
           href={""}
-          className="hover:text-teal-500 cursor-pointer border
-           hover:border-teal-200 border-teal-600 p-2
-           rounded-full font-semibold hover:animate-bounce drop-shadow-lg shadow-teal-400"
+          className="h-8 w-auto hover:text-teal-500 cursor-pointer border
+           hover:border-teal-200 border-teal-600 text-[14px] sm:text-lg
+           rounded-[20px] font-semibold hover:animate-bounce drop-shadow-lg
+            text-center items-center px-2 py-1 sm:py-0"
         >
-          Want Deal
+          Hire Me
         </Link>
+
         <div className="md:flex flex-row gap-6 pr-4 items-center text-teal-300 hidden">
           <Link
             href={"#offices"}
@@ -63,7 +65,7 @@ const Header = () => {
             Contact
           </Link>
         </div>
-        <Image src={menu_bar} alt="menu" className="sm:hidden" />
+        <Image src={menu_bar} alt="menu" className="md:hidden h-7" />
       </div>
     </div>
   );
