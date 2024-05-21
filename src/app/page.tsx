@@ -13,7 +13,7 @@ export default function Home() {
         <Summary />
         <WorkedOffices />
         <Lamp />
-        <Skills />
+        {/* <Skills /> */}
         <ProfileLinks />
       </div>
     </main>

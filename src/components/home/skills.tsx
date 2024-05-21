@@ -68,26 +68,7 @@ export function Skills() {
 const TabContents = () => {
   return (
     <div className="bg-black opacity-100 text-xl font-normal">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est corporis
-      minima quod ipsam quae, quis exercitationem eligendi obcaecati ab nulla,
-      possimus mollitia atque! Dolor animi asperiores earum placeat aut!
-      <br />
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ea
-      nostrum aliquid doloremque minima ipsum facere blanditiis alias,
-      asperiores delectus excepturi omnis illum quo quos provident corrupti.
-      Facilis, alias ut?
-      <br />
-      Minim id id occaecat ea commodo culpa ut. Labore deserunt deserunt
-      excepteur dolor esse minim nisi consequat exercitation enim tempor nulla.
-      Tempor mollit amet ipsum dolor aute ea quis sunt ipsum dolore sint
-      aliquip. Occaecat exercitation cupidatat ullamco consequat elit et. Ut
-      consequat aliquip reprehenderit fugiat. Nostrud est dolore amet velit eu{" "}
-      <br />
-      sit. Commodo quis magna reprehenderit elit in duis. Fugiat fugiat aliqua
-      excepteur ipsum ex. Nisi velit qui exercitation qui. Exercitation culpa
-      amet amet incididunt ipsum est sint qui sit quis cillum incididunt eu.
-      Eiusmod deserunt magna ullamco quis culpa mollit Lorem magna fugiat essebr
-      <br />
+      Here will be skills
     </div>
   );
 };
