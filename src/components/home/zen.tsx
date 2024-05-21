@@ -14,7 +14,7 @@ export function Lamp() {
           duration: 0.9,
           ease: "easeInOut",
         }}
-        className="mt-5 bg-black bg-gradient-to-br from-white to-white-200 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-6xl"
+        className="mt-9 bg-black bg-gradient-to-br from-white to-white-200 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-6xl"
       >
         Problem has meaning <br /> Solution has prespective.
       </motion.h1>

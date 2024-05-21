@@ -4,6 +4,7 @@ import Summary from "@/components/home/summary";
 import { WorkedOffices } from "@/components/home/worked_office";
 import { ProfileLinks } from "@/components/home/link";
 import { Skills } from "@/components/home/skills";
+import { Contact } from "@/components/home/contact";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
         <Summary />
         <WorkedOffices />
         <Lamp />
-        {/* <Skills /> */}
+        <Skills />
         <ProfileLinks />
+        <Contact />
       </div>
     </main>
   );

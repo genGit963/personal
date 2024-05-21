@@ -12,7 +12,7 @@ export function FlipWordsDemo() {
     "MERN-Stack",
     "SQL + NoSQL",
     "Node.js",
-    "Python-Development"
+    "Python"
   ];
 
   return (

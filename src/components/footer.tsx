@@ -4,10 +4,11 @@ import Image from "next/image";
 import github_logo from "../assets/github.svg";
 import linkedin_logo from "../assets/linkedin.svg";
 import npm_logo from "../assets/npm.svg";
+import { TextGenerateEffectUI } from "./my_ui/text-generate";
 
 const Footer = () => {
   return (
-    <div className="h-auto px-1 md:px-5 items-center bg-black">
+    <div className="h-auto my-10 px-1 md:px-5 items-center bg-black">
       <div className="block items-center md:flex md:justify-between md:flex-row bg-black-200 max-w-7xl p-12 m-auto rounded-2xl">
         <div className="text-center md:text-left">
           <p className="text-2xl font-semibold pb-3">Mahesh Bogati</p>
@@ -75,8 +76,16 @@ const Footer = () => {
           className="underline text-cyan-500"
         >
           Next.js
-        </a>{" "}
-        and{" "}
+        </a>
+        ,{" "}
+        <a
+          href="https://tailwindcss.com/"
+          target="_blank"
+          className="underline text-cyan-500"
+        >
+          Tailwindcss
+        </a>
+        ,{" "}
         <a
           href="https://ui.aceternity.com/"
           target="_blank"
@@ -84,9 +93,13 @@ const Footer = () => {
         >
           Aceternity
         </a>{" "}
+        and all world free and open software community.
         <br />
         <span className="text-red-600 my-1">♥️</span>
       </div>
+      <div className="my-4" />
+      <TextGenerateEffectUI />
+      <div className="my-4" />
     </div>
   );
 };

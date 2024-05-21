@@ -37,36 +37,17 @@ const Header = () => {
           className="h-8 w-auto lg:h-12"
         />
       </Link>
-      <div className="flex flex-row gap-6 justify-around">
-        <Link
-          href={""}
-          className="h-8 w-auto hover:text-teal-500 cursor-pointer border
-           hover:border-teal-200 border-teal-600 text-[14px] sm:text-lg
-           rounded-[20px] font-semibold hover:animate-bounce drop-shadow-lg
-            text-center items-center px-2 py-1 sm:py-0"
-        >
-          Hire Me
-        </Link>
 
-        <div className="md:flex flex-row gap-6 pr-4 items-center text-teal-300 hidden">
-          <Link
-            href={"#offices"}
-            className="hover:text-purple hover:cursor-pointer"
-          >
-            Odyssey
-          </Link>
-          <Link href={""} className="hover:text-purple hover:cursor-pointer">
-            Skills
-          </Link>
-          <Link
-            href={"/contact"}
-            className="hover:text-purple hover:cursor-pointer"
-          >
-            Contact
-          </Link>
-        </div>
-        <Image src={menu_bar} alt="menu" className="md:hidden h-7" />
-      </div>
+      <Link
+        href={"#contact"}
+        className="h-8 w-auto md:mr-14 hover:text-teal-500 cursor-pointer border
+           hover:border-teal-200 border-teal-600 text-[14px] sm:text-lg
+           rounded-[20px] font-medium hover:animate-bounce drop-shadow-lg
+            text-center items-center px-2 py-1 sm:py-0"
+      >
+        Take on
+      </Link>
+      {/* <Image src={menu_bar} alt="menu" className="md:hidden h-7" /> */}
     </div>
   );
 };

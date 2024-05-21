@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className + " bg-black text-white-100"}>
-        <p style={{ color: "white" }}>
+        {/* <p style={{ color: "white" }}>
           working on it. Last update: {new Date().toDateString()}
-        </p>
+        </p> */}
         <Header />
         {children}
         <Footer />
