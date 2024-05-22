@@ -18,6 +18,7 @@ export function Lamp() {
       >
         Problem has meaning <br /> Solution has prespective.
       </motion.h1>
+      <h1 className="text-2xl mt-5">You name it, I can make it. </h1>
     </LampContainer>
   );
 }

@@ -27,7 +27,6 @@ const Header = () => {
           : "hidden"
       }
     >
-      {/* <Image src={require("../assets/logo.png")} alt="logo" /> */}
       <Link href={"/"}>
         <Image
           src={logo}
