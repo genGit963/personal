@@ -1,8 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { BackgroundBeams } from "../ui/background-beams";
 
 export function Contact() {
+
+    const[email, setEmail] = useState<string>("")
+    const[Name, setName] = useState<string>("")
+    const[message, setMessage] = useState<string>("")
+
   return (
     <div
       id="contact"
@@ -20,12 +25,17 @@ export function Contact() {
         <input
           type="text"
           placeholder="Person or Organisation"
+          required
           className="rounded-lg h-12 px-4 border border-neutral-700 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-black-200 placeholder:text-neutral-700"
+          value={Name}
+          onChange={(e)=>setName(e.target.value)}
         />
         <input
-          type="text"
+          type="email"
           placeholder="Email"
+          required
           className="rounded-lg h-12 px-4 border border-neutral-700 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-black-200 placeholder:text-neutral-700"
+          value={email}
         />
         <textarea
           placeholder="I have a ....."
