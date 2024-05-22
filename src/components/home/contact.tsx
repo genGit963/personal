@@ -19,19 +19,14 @@ export function Contact() {
     to_name: "Mahesh Bogati",
     message: message,
   };
-
-  console.log(service_id, template_id, public_key);
   const handleSubmit = async () => {
-    console.log(emailTemplate);
-    console.log({ email, Name, message });
-
     try {
       setLoading(true);
       await emailjs
         .send(service_id, template_id, emailTemplate, public_key)
         .then((response) => {
           alert("I will reply you soon !");
-          console.log(response);
+        //   console.log(response);
           //   replay
         })
         .catch((err) => {
