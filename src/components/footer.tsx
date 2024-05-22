@@ -30,7 +30,7 @@ const Footer = () => {
           <Image
             src={graphene_logo}
             alt="graphene"
-            className="h-[200px] w-[280px] m-auto"
+            className="h-[80px] w-[120px] m-auto"
           />
         </div>
 

@@ -40,10 +40,10 @@ const Header = () => {
       </Link>
 
       <Link
-        href={""}
+        href="#mail"
         className="h-8 w-auto md:mr-14 hover:text-teal-500 cursor-pointer border
            hover:border-teal-200 border-teal-600 text-[14px] sm:text-lg
-           rounded-[20px] font-medium hover:animate-bounce drop-shadow-lg
+           rounded-[20px] font-medium animate-pulse drop-shadow-lg
             text-center items-center px-2 py-1 sm:py-0"
       >
         Take on
