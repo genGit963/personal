@@ -8,7 +8,7 @@ const Header = () => {
   const [showBackground, setShowBackground] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 20) {
+      if (window.scrollY > 5) {
         setShowBackground(true);
       } else {
         setShowBackground(false);
