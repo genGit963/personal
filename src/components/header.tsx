@@ -35,11 +35,12 @@ const Header = () => {
           height={"0"}
           width={"0"}
           className="h-8 w-auto lg:h-12"
+          priority
         />
       </Link>
 
       <Link
-        href={"#contact"}
+        href={""}
         className="h-8 w-auto md:mr-14 hover:text-teal-500 cursor-pointer border
            hover:border-teal-200 border-teal-600 text-[14px] sm:text-lg
            rounded-[20px] font-medium hover:animate-bounce drop-shadow-lg

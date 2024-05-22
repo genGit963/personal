@@ -16,7 +16,7 @@ export default function Home() {
         <Lamp />
         <Skills />
         <ProfileLinks />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     </main>
   );
