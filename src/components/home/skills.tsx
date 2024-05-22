@@ -223,7 +223,7 @@ export function Skills() {
 
   return (
     <div id="skills" className="h-[100vh] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40">
-      <h1 className="text-teal-200 mt-6 mx-5 text-center text-[18px] font-semibold sm:text-[24px]">I have proficiency of</h1>
+      <h1 className="text-teal-200 mt-6 mx-5 text-center text-[18px] font-semibold sm:text-[24px]">I m proficient in </h1>
       <div className="h-[0.5px] w-[100%] border border-gray-700 mb-8 mt-1 mx-4" />
       <Tabs tabs={tabs} />
     </div>
