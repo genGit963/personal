@@ -10,7 +10,7 @@ export function Contact() {
   const [Name, setName] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
-  
+
   const service_id: string = process.env.NEXT_PUBLIC_SERVICE_ID as string;
   const template_id: string = process.env.NEXT_PUBLIC_TEMPLATE_ID as string;
   const public_key: string = process.env.NEXT_PUBLIC_KEY as string;
@@ -57,7 +57,7 @@ export function Contact() {
         </p>
         <input
           type="text"
-          placeholder="Person or Organisation"
+          placeholder="Your/Organisation Name"
           required
           className="rounded-lg h-12 px-4 border border-neutral-700 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-black-200 placeholder:text-neutral-700"
           value={Name}
@@ -65,14 +65,14 @@ export function Contact() {
         />
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Your email"
           required
           className="rounded-lg h-12 px-4 border border-neutral-700 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-black-200 placeholder:text-neutral-700"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
-          placeholder="I have a ....."
+          placeholder="I would like to make......"
           className="rounded-lg h-[120px] py-2 px-4 border border-neutral-700 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-black-200 placeholder:text-neutral-700"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
@@ -80,7 +80,7 @@ export function Contact() {
 
         <button
           type="submit"
-          className="mt-6 cursor-pointer border border-teal-700 px-4 py-2 rounded-lg hover:shadow-md hover:shadow-teal-400 animate-pulse font-semibold text-teal-300"
+          className="mt-6 cursor-pointer border border-teal-700 px-4 py-2 rounded-lg hover:shadow-md hover:shadow-teal-400 animate-pulse font-semibold text-teal-500"
         >
           Send Mail
         </button>

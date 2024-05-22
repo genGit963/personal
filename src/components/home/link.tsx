@@ -4,7 +4,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 export function ProfileLinks() {
   return (
     <div className="max-w-5xl mx-auto px-8 h-auto mb-5">
-        <h1 className="text-4xl text-center">My Track Record Profiles</h1>
+        <h1 className="text-4xl text-center text-white-200">My Track Record Profiles</h1>
       <HoverEffect items={projects} />
     </div>
   );

@@ -8,9 +8,9 @@ import { TextGenerateEffectUI } from "./my_ui/text-generate";
 
 const Footer = () => {
   return (
-    <div className="h-auto my-10 px-1 md:px-5 items-center bg-black">
-      <div className="block items-center md:flex md:justify-between md:flex-row bg-black-200 max-w-7xl p-12 m-auto rounded-2xl">
-        <div className="text-center md:text-left">
+    <div className="h-auto my-10 px-1 lg:px-5 items-center bg-black">
+      <div className="block items-center lg:flex lg:justify-between lg:flex-row bg-black-200 max-w-7xl p-12 m-auto rounded-2xl">
+        <div className="text-center lg:text-left">
           <p className="text-2xl font-semibold pb-3">Mahesh Bogati</p>
           <p className="font-normal py-2">
             Electronics, Communication <br /> and Information Engineer <br />{" "}
@@ -20,7 +20,7 @@ const Footer = () => {
             href="mailto: bogati.mahesh.299.792.458@gmail.com"
             className="underline text-cyan-500 text-[14px] items-center mx-auto"
           >
-            <p className="text-center">bogati.mahesh.299.792.458@gmail.com</p>
+            <p className="text-center text-[12px] lg:text-[15px] ">bogati.mahesh.299.792.458@gmail.com</p>
           </a>
           <p className="text-[14px]">Kathmandu, Nepal</p>
           <p className="text-[14px]">All Rights Reserved</p>
@@ -32,9 +32,10 @@ const Footer = () => {
             alt="graphene"
             className="h-[80px] w-[120px] m-auto"
           />
+          <p className="text-[12px] text-center mt-3">copyright©2024</p>
         </div>
 
-        <div className="text-center gap-2 md:text-left flex items-center w-[280px] mx-auto md:mx-0 justify-between my-4 md:my-0">
+        <div className="text-center lg:text-left flex items-center w-[220px] mx-auto lg:mx-0 justify-between my-4 lg:my-0">
           <a
             href="https://github.com/genGit963?tab=repositories"
             target="_blank"
@@ -42,7 +43,7 @@ const Footer = () => {
             <Image
               src={github_logo}
               alt="github"
-              className="h-[50px] w-[50px] cursor-pointer"
+              className="h-[30px] w-[30px] sm:h-[50px] sm:w-[50px] cursor-pointer"
             />
             <p className="text-[10px] text-center mt-1">github</p>
           </a>
@@ -54,7 +55,7 @@ const Footer = () => {
             <Image
               src={linkedin_logo}
               alt="linkedin"
-              className="h-[50px] w-[50px] cursor-pointer"
+              className="h-[30px] w-[30px] sm:h-[50px] sm:w-[50px] cursor-pointer"
             />
             <p className="text-[10px] text-center mt-1">linkedin</p>
           </a>
@@ -62,7 +63,7 @@ const Footer = () => {
             <Image
               src={npm_logo}
               alt="npm"
-              className="h-[50px] w-[50px] cursor-pointer"
+              className="h-[30px] w-[30px] sm:h-[50px] sm:w-[50px] cursor-pointer"
             />
             <p className="text-[10px] text-center mt-1">npm</p>
           </a>

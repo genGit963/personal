@@ -90,10 +90,10 @@ export const Vortex = (props: VortexProps) => {
     vx = 0;
     vy = 0;
     life = 0;
-    ttl = baseTTL + rand(rangeTTL) * 100;
-    speed = baseSpeed + rand(rangeSpeed) * 0.5;
+    ttl = baseTTL + rand(rangeTTL) * 200;
+    speed = baseSpeed + rand(rangeSpeed) * 0.8;
     radius = baseRadius + rand(rangeRadius) ;
-    hue = baseHue + rand(rangeHue) * 0.5;
+    hue = baseHue + rand(rangeHue) * 0.9;
 
     particleProps.set([x, y, vx, vy, life, ttl, speed, radius, hue], i);
   };
