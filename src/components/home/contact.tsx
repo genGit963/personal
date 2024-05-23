@@ -49,7 +49,7 @@ export function Contact() {
         className="max-w-2xl mx-auto p-4 my-8 z-[15]"
       >
         <h1 className="relative z-10 py-2 text-2xl md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-          I m just a mail way
+          I m just a mail away
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
           I am aspire to delve into the unparalleled blend of business and tech
