@@ -70,7 +70,7 @@ export function Skills() {
               </li>
               <li>
                 Express.js :{" "}
-                <span className="text-teal-400">Sever Management</span>
+                <span className="text-teal-400">Server Management</span>
               </li>
               <li>RESTful API</li>
               <li>
