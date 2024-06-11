@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import { BackgroundBeams } from "../ui/background-beams";
 import LongitudnalWaveLoading from "../my_ui/loading";
 import emailjs from "@emailjs/browser";
-import Link from "next/link";
 
 export function Contact() {
+
   const [email, setEmail] = useState<string>("");
   const [Name, setName] = useState<string>("");
   const [message, setMessage] = useState<string>("");
